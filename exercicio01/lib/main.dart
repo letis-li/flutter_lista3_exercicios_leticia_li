@@ -58,7 +58,7 @@ class _TelaNomeState extends State<TelaNome> {
                     return 'Informe o nome.';
                   }
                   if (valor.trim().length < 3){ //alteração feita
-                    return 'O nome deve ter pelo menos três caracteres para um nome curto.';
+                    return 'O nome deve ter pelo menos três caracteres.';
                   }
                   return null;
                 },
